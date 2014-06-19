@@ -1,0 +1,11 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+GET        /webjars/*file        controllers.WebJarAssets.at(file)
+# Home page
+GET     /                           controllers.Application.index
+GET     /movies                     controllers.Application.movies(year: Option[Int])
+GET     /movies/:id                 controllers.Application.movie(id: Long)
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /*file               controllers.Assets.at(path="/public", file)

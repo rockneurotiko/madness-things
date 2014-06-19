@@ -1,0 +1,14 @@
+PWD /home/rock/Git/madness-things/LaTeX
+INPUT /usr/share/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/latex.fmt
+INPUT holamundo.tex
+OUTPUT holamundo.log
+INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/share/texmf-dist/tex/latex/base/size10.clo
+INPUT holamundo.aux
+INPUT holamundo.aux
+OUTPUT holamundo.aux
+OUTPUT holamundo.dvi
+INPUT holamundo.aux
